@@ -6,7 +6,7 @@ import geocoder
 
 url = input("Website url: ")
 
-ip2 = url.replace('http://', '')
+ip2 = url.replace('https://', '')
 ip = socket.gethostbyname(ip2)
 g = geocoder.ip(ip)
 if True:
